@@ -1,0 +1,145 @@
+/*'Montserrat', sans-serif;*/
+/*generic fonts and colors*/
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+body {
+  background-color: rgb(220,220,220);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #255957;
+  line-height: 1.6em;
+  font-weight: 100i;
+  margin: 10, 30;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #23395B;
+}
+
+h1 {
+  color: rgb(81, 123, 142);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+p {
+  font-weight: 400;
+}
+
+a {
+    color: #918B76;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #788AA3;
+}
+
+/*more detail*/
+.card {
+  background-color: rgb(240, 240, 240);
+  padding: 40px;
+  margin: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2)
+}
+
+.fixed-size {
+  width: 200px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/*more detail*/
+#img-profile {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #788AA3;
+
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+
+.btn-blue {
+  background-color: #8EA8C3;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline li i {
+    font-size: 20px;
+}
+
+#movies {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+#movies img {
+    width: 80px;
+}
+
+#movies td {
+    padding: 10px;
+}
+
+#movies p {
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
