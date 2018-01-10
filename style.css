@@ -2,7 +2,7 @@
 /*generic fonts and colors*/
 .container {
   width: 500px;
-  margin: 30px auto;
+  margin: 0px auto;
 }
 
 body {
@@ -167,20 +167,25 @@ a:hover {
 
 
 #projects {
-  margin: 10px;
-  align-items: center;
+
 }
 
 
 #projects ul {
  list-style: none;
  font-size: : 20px;
+     padding-bottom: 15px;
 }
 
 #projects img {
   width: 350px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
 }
 
+#projects li {
+
+}
 
 
 
