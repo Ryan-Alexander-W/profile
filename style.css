@@ -34,8 +34,8 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
-    font-weight: 300;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 p {
@@ -44,8 +44,8 @@ p {
 }
 
 a {
-    color: #918B76;
-    text-decoration: none;
+  color: #918B76;
+  text-decoration: none;
 }
 
 a:hover {
@@ -111,7 +111,7 @@ a:hover {
 }
 
 .list-inline li i {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #movies {
@@ -121,11 +121,11 @@ a:hover {
 }
 
 #movies img {
-    width: 80px;
+  width: 80px;
 }
 
 #movies td {
-    padding: 10px;
+  padding: 10px;
 }
 
 #movies p {
@@ -143,6 +143,7 @@ a:hover {
   text-align: center;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 #sidebar li{
@@ -165,7 +166,20 @@ a:hover {
 }
 
 
+#projects {
+  margin: 10px;
+  align-items: center;
+}
 
+
+#projects ul {
+ list-style: none;
+ font-size: : 20px;
+}
+
+#projects img {
+  width: 350px;
+}
 
 
 
