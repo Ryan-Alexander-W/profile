@@ -93,6 +93,15 @@ a:hover {
   margin: 5px;
 }
 
+.btn-blue:hover {
+  background-color: #918B76;
+  color: white;
+  font-weight: 500;
+  padding: 11px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
 .list-inline {
   padding-left: 0;
 }
@@ -150,7 +159,10 @@ a:hover {
 }
 
 
+.card .fa:hover {
 
+  font-size: 20.5px;
+}
 
 
 
