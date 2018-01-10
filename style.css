@@ -36,11 +36,18 @@ h2 {
 h3 {
   font-size: 16px;
   font-weight: 300;
+  font-family: 'Roboto', sans-serif;
 }
 
 p {
   font-weight: 400;
   padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.summary-text {
+  font-family: 'Roboto', sans-serif;
+
 }
 
 a {
