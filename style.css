@@ -221,6 +221,7 @@ a:hover {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 100%;
+    margin: 0 auto;
   }
   #sidebar {
     display:none !important;
