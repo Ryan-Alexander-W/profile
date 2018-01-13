@@ -241,6 +241,10 @@ a:hover {
   }
   #movies img {
     width: 100%;
+
+}
+.list-inline li i {
+    font-size: 12px;
 }
 }
 
