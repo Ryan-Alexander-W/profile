@@ -178,7 +178,7 @@ a:hover {
 #projects ul {
  list-style: none;
  font-size: : 20px;
-     padding-bottom: 15px;
+ padding-bottom: 15px;
 }
 
 #projects img {
@@ -200,5 +200,47 @@ a:hover {
   width: 35%;
 }
 
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 75px;
+  }
+  #sidebar {
+    width: 10%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+  #sidebar {
+    display:none !important;
+  }
+  .list-inline li i {
+    font-size: 15px;
+  }
+  #movies {
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 1.6em;
+  }
+  #movies {
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 1.6em;
+  }
+  #movies img {
+    width: 100%;
+}
+}
 
 
