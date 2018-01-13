@@ -246,6 +246,9 @@ a:hover {
 .list-inline li i {
     font-size: 12px;
 }
+.card {
+  margin: 2px;
+}
 }
 
 
