@@ -1,175 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+
+<!--
+   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
   <script src="https://use.fontawesome.com/749a033653.js"></script>
 <!-- <link href="https://use.fontawesome.com/releases/v5.0.3/css/all.css" rel="stylesheet">
+-->
+<!-- <link rel="import" href="layouts/partials/navbar.html">
  -->
 
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Roboto:100i,400" rel="stylesheet">
-  <meta charset="utf-8">
-  <meta name ="viewport" content="width=device-width, intial-scale=1.0">
-  <title>Ryan's Profile Page</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300|Roboto:100i,400" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Ryan's Profile Page</title>
 </head>
 <body>
-  <div id="sidebar">
-    <ul>
-      <li>
-        <a href="#summary">
-          <i class="fa fa-info-circle"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#projects">
-          <i class="fa fa-rocket"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#skills">
-          <i class="fa fa-bullseye"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#favorite-movies">
-          <i class="fa fa-file-video-o"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#footer">
-          <i class="fa fa-life-ring"></i>
-        </a>
-      </li>
-    </ul>
- </div>
-  <div class="container">
-    <!-- Profile Card -->
-    <div class="card text-center" id="summary">
-      <img src="images/ryan_profile_resizeimage.jpg" alt="Ryan Wiens" width="200" id="img-profile" class="img-circle">
-      <h1>Ryan Alexander Wiens </h1>
-      <h2>Full Stack Developer</h2>
-      <p class="summary-text">Teacher turned coder now based in Amsterdam</p>
-      <a href="#projects" class="btn-blue">See for yourself</a>
-      <!-- Social profile cards -->
 
-    </div>
-<!-- Social Networking -->
-    <div class="card text-center">
-      <ul class="list-inline">
-        <li><a href="https://www.facebook.com/ryan.trix.3"><i class="fa fa-facebook" aria-hidden="true"><br> Facebook</i></a></li>
-        <li><a href="https://github.com/Ryan-Alexander-W"><i class="fa fa-github" aria-hidden="true"><br> Github</i>
-          </a>
-        </li>
-          <li>
-            <a href="https://www.linkedin.com/in/ryan-wiens/"><i class="fa fa-linkedin" aria-hidden="true"><br> LinkedIn</i>
-          </a>
-        </li>
-      </ul>
-    </div>
+
+
+
+
+<div id="sidebar">
+  <ul>
+    <li>
+      <a href="#summary">
+        <i class="fa fa-info-circle"></i>
+      </a>
+    </li>
+    <li>
+      <a href="#projects">
+        <i class="fa fa-rocket"></i>
+      </a>
+    </li>
+    <li>
+      <a href="#skills">
+        <i class="fa fa-bullseye"></i>
+      </a>
+    </li>
+    <li>
+      <a href="#favorite-movies">
+        <i class="fa fa-file-video-o"></i>
+      </a>
+    </li>
+    <li>
+      <a href="#footer">
+        <i class="fa fa-life-ring"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="container">
+  <!-- Profile Card -->
+  <div class="card text-center" id="summary">
+    <img src="images/ryan_profile_resizeimage.jpg"  alt="Ryan Wiens" width="200" id="img-profile" class="img-circle img-responsive" style="margin:0 auto;">
+    <h1>Ryan Alexander Wiens </h1>
+    <h2>Full Stack Developer</h2>
+    <p class="summary-text">Teacher turned coder now based in Amsterdam</p>
+    <a href="#projects" class="button-blue">See for yourself</a>
+    <!-- Social profile cards -->
+
+  </div>
+  <!-- Social Networking -->
+  <div class="card text-center">
+    <ul class="list-inline">
+      <li><a href="https://www.facebook.com/ryan.trix.3"><i class="fa fa-facebook" aria-hidden="true"><br> Facebook</i></a></li>
+      <li><a href="https://github.com/Ryan-Alexander-W"><i class="fa fa-github" aria-hidden="true"><br> Github</i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/ryan-wiens/"><i class="fa fa-linkedin" aria-hidden="true"><br> LinkedIn</i>
+      </a>
+    </li>
+  </ul>
+</div>
 
 
 <!-- projects -->
-    <div class="card text-center" id="projects">
-      <h2>My Projects</h2>
-      <ul class="list-inline">
-        <li>Recircle</li>
-        <li> <a href = "http://www.recircle.me/" target = "_self">
-         <img src = "images/recircle.png" class="fixed-size" alt = "recircle.com" border = "0"/>
-      </a></li>
-        <li><p>Recircle is a business to business platform for turning your trash into treasure.</p></li>
-      </ul>
+<div class="card text-center" id="projects">
+  <h2>My Projects</h2>
+  <ul class="list-inline">
+    <li>Recircle</li>
+    <li> <a href = "http://www.recircle.me/" target = "_self">
+     <img src = "images/recircle.png" class="fixed-size" alt = "recircle.com" border = "0"/>
+   </a></li>
+   <li><p>Recircle is a business to business platform for turning your trash into treasure.</p></li>
+ </ul>
 
-      <ul class="list-inline">
-        <li>Bike Buddies</li>
-        <li> <a href = "https://bikebuddies-batch99.herokuapp.com/" target = "_self">
-         <img src = "images/bikebuddies.png" class="fixed-size" alt = "bike buddies" border = "0"/>
-      </a></li>
-        <li><p>Bike Buddies is a community-based, user to user online platform that facilitates the process of renting bicycles for travelers. </p></li>
-      </ul>
+ <ul class="list-inline">
+  <li>Bike Buddies</li>
+  <li> <a href = "https://bikebuddies-batch99.herokuapp.com/" target = "_self">
+   <img src = "images/bikebuddies.png" class="fixed-size" alt = "bike buddies" border = "0"/>
+ </a></li>
+ <li><p>Bike Buddies is a community-based, user to user online platform that facilitates the process of renting bicycles for travelers. </p></li>
+</ul>
 
-    </div>
+</div>
 
 <!-- Skills -->
 
-  <div class="card text-center" id="skills">
-    <ul class="list-inline">
-      <h2>Skills</h2>
+<div class="card text-center" id="skills">
+  <ul class="list-inline">
+    <h2>Skills</h2>
 
-      <li>
-        <a href="#">
+    <li>
+      <a href="#">
         <img src = "images/CSS3.png"  alt = "CSS3" border = "0"/>
-        </a>
-      </li>
-      <li>
-        <a href="#">
+      </a>
+    </li>
+    <li>
+      <a href="#">
         <img src = "images/HTML5.png"  alt = "html5" border = "0"/>
-        </a>
-      </li>
-      <li>
-        <a href="#">
+      </a>
+    </li>
+    <li>
+      <a href="#">
         <img src = "images/javascript.png"  alt = "javascript" border = "0"/>
-        </a>
-      </li>
+      </a>
+    </li>
 
 
 
-    </ul>
-  </div>
+  </ul>
+</div>
 
 
 
-    <!-- Favorite Movies -->
-    <div class="card text-center" id="favorite-movies">
-      <h2>My Favorite Movies</h2>
+
+<!-- Favorite Movies -->
+<div class="card text-center" id="favorite-movies">
+  <h2>My Favorite Movies</h2>
 
 
 
-      <table id="movies">
-        <tbody>
-          <tr>
-            <td>
-              <img src="images/requiem-for-a-dream-movie-poster-2000-1020308633.jpg" class="fixed-size" alt="">
-            </td>
-            <td>
-              <h3>Requiem For A Deam</h3>
-              <p>The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.
-              </p>
-            </td>
-          </tr>
-          <tr>
+  <table id="movies">
+    <tbody>
+      <tr>
+        <td>
+          <img src="images/requiem-for-a-dream-movie-poster-2000-1020308633.jpg" class="fixed-size" alt="">
+        </td>
+        <td>
+          <h3>Requiem For A Deam</h3>
+          <p>The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.
+          </p>
+        </td>
+      </tr>
+      <tr>
 
-            <td>
-              <img src="images/cityofgod.jpg" class="fixed-size" alt="">
-            </td>
-            <td>
-              <h3>City of God</h3>
-              <p>Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths: one becomes a photographer, the other a drug dealer.
-              </p>
-            </td>
+        <td>
+          <img src="images/cityofgod.jpg" class="fixed-size" alt="">
+        </td>
+        <td>
+          <h3>City of God</h3>
+          <p>Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths: one becomes a photographer, the other a drug dealer.
+          </p>
+        </td>
 
-          </tr>
-          <tr>
-            <td>
-              <img src="images/the_dark_knight_poster.jpg" class="fixed-size" alt="">
-            </td>
-            <td>
-              <h3>The Dark Knight</h3>
-              <p>When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!-- ABOUT THIS PAGE -->
-    <div class="card text-center" id="footer">
-      <h3>ABOUT THIS PAGE</h3>
-      <p>This page was created during the FullStack program @LeWagon and continues to be updated as I have more to add. If you are looking for a front end developer you can contact me at <strong>info@ryanwiens.com</strong></p>
-      <ul class="list-inline">
-        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-        <li><a href="#"><i class="fa fa-share"></i></a></li>
-        <li><a href="#"><i class="fa fa-star"></i></a></li>
-      </ul>
-    </div>
-  </div>
+      </tr>
+      <tr>
+        <td>
+          <img src="images/the_dark_knight_poster.jpg" class="fixed-size" alt="">
+        </td>
+        <td>
+          <h3>The Dark Knight</h3>
+          <p>When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!-- ABOUT THIS PAGE -->
+<div class="card text-center" id="footer">
+  <h3>ABOUT THIS PAGE</h3>
+  <p>This page was created during the FullStack program @LeWagon and continues to be updated as I have more to add. If you are looking for a front end developer you can contact me at <strong>info@ryanwiens.com</strong></p>
+  <ul class="list-inline">
+    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+    <li><a href="#"><i class="fa fa-share"></i></a></li>
+    <li><a href="#"><i class="fa fa-star"></i></a></li>
+  </ul>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 </body>
 </html>

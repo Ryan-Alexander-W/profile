@@ -1,0 +1,25 @@
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#sidebar li{
+  font-size: 35px;
+  padding: 40px;
+  list-style: none;
+}
+
+#sidebar ul {
+  padding-left: 0px;
+}
+#page-content {
+  margin-left: 300px;
+}
