@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
 
 <!--
-   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
-  <script src="https://use.fontawesome.com/749a033653.js"></script>
+ <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+ <script src="https://use.fontawesome.com/749a033653.js"></script>
 <!-- <link href="https://use.fontawesome.com/releases/v5.0.3/css/all.css" rel="stylesheet">
 -->
-<!-- <link rel="import" href="layouts/partials/navbar.html">
- -->
+
 
 
 <link rel="stylesheet" href="css/style.css">
@@ -21,6 +20,29 @@
 </head>
 <body>
 
+ <!-- Dropdown appearing on mobile only -->
+  <!-- <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Host</a></li>
+        <li><a href="#">Trips</a></li>
+        <li><a href="#">Messagese</a></li>
+      </ul>
+    </div>
+  </div>
+</div> -->
+
+  <nav class="navbar-profile ">
+      <div class ="dropdown">
+        <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Host</a></li>
+          <li><a href="#">Trips</a></li>
+          <li><a href="#">Messagese</a></li>
+        </ul>
+      </div>
+    </nav>
 
 
 
@@ -57,7 +79,7 @@
 <div class="container">
   <!-- Profile Card -->
   <div class="card text-center" id="summary">
-    <img src="images/ryan_profile_resizeimage.jpg"  alt="Ryan Wiens" width="200" id="img-profile" class="img-circle img-responsive" style="margin:0 auto;">
+      <img src="images/ryan_profile_resizeimage.jpg"  alt="Ryan Wiens" width="200" id="img-profile" class="img-circle img-responsive" style="margin:0 auto;">
     <h1>Ryan Alexander Wiens </h1>
     <h2>Full Stack Developer</h2>
     <p class="summary-text">Teacher turned coder now based in Amsterdam</p>
@@ -83,6 +105,16 @@
 <!-- projects -->
 <div class="card text-center" id="projects">
   <h2>My Projects</h2>
+
+  <ul class="list-inline">
+    <li>Shanghai</li>
+    <li> <a href = "https://ryan-alexander-w.github.io/shanghai-landing/" target = "_self">
+     <img src = "images/Shanghai.png" class="fixed-size" alt = "recircle.com" border = "0"/>
+   </a></li>
+   <li><p>I wanted to practice a few flex-box techniquues so I made this site about this city I lived in for 12 years.</p></li>
+ </ul>
+
+
   <ul class="list-inline">
     <li>Recircle</li>
     <li> <a href = "http://www.recircle.me/" target = "_self">

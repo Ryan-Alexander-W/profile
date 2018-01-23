@@ -41,6 +41,8 @@ h3 {
 }
 
 p {
+  font-size: 16px;
+  padding-top: 10px;
   font-weight: 400;
   padding-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
@@ -179,6 +181,15 @@ a:hover {
   width: 35%;
 }
 
+.navbar-profile {
+    font-size: 20px;
+   /* position: relative;
+    right: 200px;
+    bottom: 20px;*/
+  }
+
+
+
 @media (min-width: 961px) {
 .container {
     width: 700px;
@@ -187,7 +198,9 @@ a:hover {
    #sidebar {
     width: 15%;
   }
-
+.navbar-profile {
+    display: none;
+  }
 }
 
 @media (max-width: 960px) {
@@ -195,7 +208,9 @@ a:hover {
   .container {
     width: 500px;
   }
-
+  .navbar-profile {
+    display: none;
+  }
 
 }
 @media (max-width: 720px) {
@@ -206,6 +221,9 @@ a:hover {
   }
   #sidebar {
     width: 10%;
+  }
+  .navbar-profile {
+    display: none;
   }
 }
 @media (max-width: 540px) {
@@ -235,6 +253,10 @@ a:hover {
 .card {
   margin: 2px;
 }
+
+.navbar-profile {
+    display: block;
+  }
 
 }
 
